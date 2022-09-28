@@ -11,5 +11,7 @@ public class Main {
 		CustomerManager customerManager1 = new CustomerManager();
 		
 	}
+	
+	// Not => Her bir class sadece bir class'ı extends edebilir (miras alabilir)
 
 }
