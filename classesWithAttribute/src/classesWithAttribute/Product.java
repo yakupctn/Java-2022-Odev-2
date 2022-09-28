@@ -9,7 +9,7 @@ public class Product {
 	private int id;                  // Değişkenleri private yaptığımız için bu değişkenlere sadece bu kod bloğu içinden ulaşılabilir.
 	private String name;             // Her yerden ulaşabilmek için getter ve setter kulllanmalıyız.
 	private String description;
-	private double price;
+	private double price;             // Değişkenleri private yapmasaydık her yerden ulaşılabilirdi dolayısıyla aşağıdaki getter setter işlerine gerek kalmazdı.
 	private int stockAmount;
 	private String renk;
 	private String kod;
