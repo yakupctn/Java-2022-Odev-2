@@ -3,7 +3,18 @@ package classesWithAttribute;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Product product1 = new Product();
+		product1.setName("Laptop");
+		product1.setId(1);;
+		product1.setDescription("Asus Laptop");
+	    product1.setPrice(5000);
+	    product1.setStockAmount(3);
+	    
+	    ProductManager productManager1 = new ProductManager();
+	    productManager1.Add(product1);
+	    
+	    System.out.println(product1.getKod());
+		
 
 	}
 
